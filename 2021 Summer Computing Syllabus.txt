@@ -1,0 +1,195 @@
+﻿2021 Summer Computing Syllabus
+
+
+Please include goals, outcomes, and daily activities. Also include 3-5 survey questions.
+
+
+Computer Science (Md Rahman and Monir Sharker)
+Interactive Python Coding
+ Objective: To learn the foundation of computer programming through critical thinking (CT) and coding using Python programming language and programming ethics. The core idea is to engage high school students to solve problems through CT, empower their confidence in addressing computing programming challenges, and develop small, real life, interesting, and useful programs and/or apps using Python.
+
+
+Learning Outcomes:
+After successful completion of the coding camp, students will be able to-
+1. Analyze and solve problems through critical thinking
+2. Learn the foundation of computer programming and programming ethics
+3. Write, debug, and run python programs
+4. Develop real life, interesting, and useful programs and/or apps using Python
+
+
+Lesson plan:
+Note: To keep things simple, coding will take place on Repl.it in browser to avoid possible complexities in installing Python locally and to allow for remote collaboration in real time. Each student’s name and email is needed to invite/include them on repl.it class.
+
+
+Day 1: Introduction: Critical Thinking and Computer Programming
+* Introduction to CT
+* discussing the importance of algorithm and its representation in pseudocode for problem-solving. 
+* Flowchart/Algorithm
+
+
+Activities/Lab: 
+1. Practicing/solving CT problems
+2. Solving problems by plain steps and developing flowcharts/algorithms
+
+
+Day 2: Introductory Python:
+* Intro to python
+* repl.it   introduction
+* number operators
+* Variables, User Input
+
+
+Lab/activities: FizzBuzz, printing triangles and rectangles with letters
+
+
+Day 3: Decision Making:
+* Booleans, Conditionals
+* Branching: If, elif, else
+* Python modules: math, time, random, string
+
+
+Lab/Activities:  Solving branching  problems
+
+
+Day 4: Repetition Structures
+
+
+* while & for loops, 
+* range
+* counters
+* accumulators, running totals
+
+
+Lab/Activities:  Solving problems using for and while loops, developing a basic calculator
+
+
+Day 5: Python String and List
+
+
+* String operations: changing case, splitting and merging, changing characters
+* Lists
+* Basic list slicing operators
+* Tuples, 
+* iterating over lists and tuples
+
+
+Lab/Activities:   Solving problems  by creating list and calculating  sum and average
+
+
+Day 6:   Functions
+ 
+* function definition
+* function with parameters, 
+* function with return statement
+
+
+Lab/Activities:    Solving different problem using user defined functions with parameter passing and using return statement
+
+
+Day 7:  PyGame Basics
+* Setting up
+* Initializing display
+* Surfaces, updating the screen
+* Loading images
+* Moving images with blit
+* Edge collision
+
+
+Lab/Activities: DVD Logo, basic animation, making Boids
+
+
+Day 8: PyGame User Input:
+* PyGame.event, event loop
+* Keyboard input handling
+* Pygame Sprites and subclassing
+
+
+Lab/Activities: “Pummel the Chimp” game, making Conway’s Game of Life
+
+
+Day 9: Further PyGame Topics: random/user input
+* show how to generate random int
+* make the computer pick a either rock paper or scissors via random number generator
+* then show how to take user input.
+* make the students take user input for the game so that they can have the user pick either rock paper or scissors
+* discuss if, if-elif, and else statements
+* get the students to use if statements for the game. Check who won the round the computer or the student
+* lastly get the students to take user input and use if statements to ask if the user wants to play again if not set isPlaying to false 
+
+
+Lab Topics: Develop a rock-paper-sessors game both for random input and user input
+
+
+Day 10: Further PyGame Topics:
+* Types of events in PyGame.event
+* Mouse input handling
+* Selective screen updating for efficiency
+* Collision detection between sprites
+
+
+Lab Topics: Group into teams and have a short game-making competition
+
+
+
+
+
+
+
+
+Engineering (Craig Scott)
+
+
+Description and Objective: This aspect of our summer camp empowers and engages students to use what they know and find what they are passionate about to take control and boldly influence the world. Empowerment is built through an awareness of the engineering design process in everyday life, the importance of diversity, and by interrogating and emphasizing how engineering is embedded in society. Engagement occurs as students practice engineering design while considering social justice related design challenges.  
+
+
+Outcomes:
+At the end of this activity students are expected to: 
+1. Develop critical thinking, communication and analytical skills through solving a real-world 
+multidisciplinary problem. 
+2. Produce, analyze, and evaluate a project solution. 
+3. Test designs and make thoughtful inference on experimental findings. 
+4. Work in teams   
+
+
+Activities: (Days 1 and two can be done at the start of the program)
+Day 1: The 4 Cs of the 21st Century: Communication, collaboration, critical thinking, and creativity 
+Day 2: A The Engineering Design Process  
+Day 3: Applying Engineering to Social Justice Activity 1 Evaluating Needs and Developing a Model 
+Day 4: Applying Engineering to Social Justice Activity 2 Collecting, Evaluating and Iterating 
+Day 5: Documenting and Reporting Out  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sociology and Social Justice (Natasha Pratt-Harris)
+
+
+Description and Objective: The Sociology and Social Justice module will include an introduction to theory, qualitative and quantitative research methods, and techniques in applied sociology. Campers will be able to identify these core sociological processes as they participate in class activities. 
+
+
+Assessment: At time 1 campers will describe what sociology and social justice means to them. Campers will also describe how sociology and social justice are on display via social media.  At time 2 campers will revisit their original description of sociology and social justice and describe what sociology and social justice means to them now. Campers will then describe how sociology and social justice are on display via social media, based on what they learned during the module.
+  
+Day 1: What is sociology, careers in sociology, theory, research methods and statistics
+Day 2: Conducting Research - brainstorming, proposal, research methods, collecting data, analyzing, reporting 
+Day 3: Applied Sociology and Social Justice - Activity 1: Class Examples of Tik Tok and Social Justice
+Day 4: Applied Sociology and Social Justice - Activity 2: Examples of Others using Tik Tok and Social Justice
+Day 5: Applied Sociology and Social Justice - Activity 3: Combined Presentation Tik Tok and Social Justice and the the 2021 Microsoft Computing Camp
+ 
+
+
+
+
+
+
+Tiktok
+Computational Thinking
