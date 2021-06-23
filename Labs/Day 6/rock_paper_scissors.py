@@ -1,48 +1,43 @@
 import random
 
+'''
+Key:
+0 = rock
+1 = paper
+2 = scissors
+'''
+
 def gen_rand_num():
-	return random.randint(0, 2)
+	'''
+	The function gen_rand_num() takes no arguments and returns a random integer between 0 and 2, inclusive.
+	This is intended to simulate the computer opponent deciding which hand to throw in rock, paper, scissors.
+	You will have to fill in the function.
+	'''
 
 def find_winner(computer, user):
 	'''
-	0 = rock\n
-	1 = paper\n
-	2 = scissors
+	The function find_winner(computer, user) takes in two integers as arguments and updates
+	the score and isPlaying variables depending on whether the player wins the round of
+	rock, paper, scissors, and whether they choose to continue playing.
+	
+	You will have to fill in the blanks so that the program prints out "Win", "Lose", or "Tie" and
+	updates the score based on the result of the game. Since the code in each case will be very similar
+	(but not identical), use of the copy/paste function of your OS is highly encouraged.
 	'''
+	
 	global isPlaying
 	global score
 
 	if computer == 0: # rock
-		if user == 0:
-			print("Tie")
-		elif user == 1:
-			print("Lose")
-			score -= 1
-		else:
-			print("Win")
-			score += 1
+		# Fill in this case!
 
 	elif computer == 1: # paper
-		if user == 0:
-			print("Win")
-			score += 1
-		elif user == 1:
-			print("Tie")
-		else:
-			print("Lose")
-			score -= 1
-
+		# Fill in this case!
+		
 	else: # scissors
-		if user == 0:
-			print("Lose")
-			score -= 1
-		elif user == 1:
-			print("Win")
-			score += 1
-		else:
-			print("Tie")
+		# Fill in this case!
 	
-	print("Your score is:", score)
+	print("Your score is: " + str(score))
 	
 	if input("Play again? Y/N ").lower() == "n":
 		isPlaying = False
