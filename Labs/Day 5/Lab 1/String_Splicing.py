@@ -35,13 +35,13 @@ print(name)
 import os # don't change
 
 PATH = os.path.dirname(__file__) # don't change
-nameIndex = -8
 for i in open(os.path.join(PATH, "info.txt"), "r").readlines(): # don't change
+	# code pass this point should not be given to students until they have finished this project
 	strLen = len(i)
 	print(i)
 	# code pass this point should not be given to students until they have finished this project
-	if strLen > abs(nameIndex):
-		print(f"Characters printed in positions 0, 3, and {nameIndex} are: {i[0]} {i[3]} {i[nameIndex]}")
+	if strLen > 8:
+		print(f"Characters printed in positions 0, 3, and -8 are: {i[0]} {i[3]} {i[-8]}")
 	elif strLen > 5:
 		print(f"Characters printed in positions 0, and 3 are: {i[0]} {i[3]}")
 	elif strLen >= 1:
