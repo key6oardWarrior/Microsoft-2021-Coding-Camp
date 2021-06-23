@@ -38,7 +38,7 @@
 
 <p>Rules:</p>
 <ol>
-	<li>Do <b>NOT</b> erase the bolier place code</li>
+	<li>Do <b>NOT</b> erase the bolier plate code</li>
 	<li>Print the number of characters that the string has</li>
 	<li>Characters in position 0, 5, and -8 must be printed. If a string does not have a character in a given position the don't print it</li>
 </ol>
