@@ -13,6 +13,7 @@
 	<li>Every time a user enters a room they must type "Find Key". This is case senitive</li>
 	<li>To move to the next room the user must type "walk". This is not case senitive</li>
 	<li>When the user collects all the keys you must print the list and make the user guess what the sentence is. For example, if the list is ["won", "I"] when the user guesses "I won" then they will escape the room. This is also case senitive</li>
+	<li>What can you do to make the code for this game less repetive</li>
 </ol>
 
  </body>
