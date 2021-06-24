@@ -5,7 +5,8 @@
 <h1>Pygame Basics</h1>
 <ol>
 	<li>How to use Pygame:<br />
-	Step one is to import the pygame module. Type:<br /> <code>import pygame<br />from pygame.locals import *</code></li>
+	Step one is to import the pygame module. Type:<br /><code>import pygame</code><br />
+	<code>from pygame.locals import *</code></li>
 	<li>Then, the first line of code from pygame that must be run is the initialize (aka init) function. Type:<br />
 	<code>pygame.init()</code></li>
 	<li>Set a few const vars:<br />
