@@ -9,8 +9,8 @@
 	<li>Then, the first line of code from pygame that must be run is the initialize (aka init) function. Type:<br />
 	<code>pygame.init()</code></li>
 	<li>Set a few const vars:<br />
-	<code>BACKGROUND_COLOR = (255, 255, 255) # white</br /></code>
-	<code>FPS = 60<br /></code>
+	<code>BACKGROUND_COLOR = (255, 255, 255) # white</code><br />
+	<code>FPS = 60</code><br />
 	<code>WIDTH = 400</code><br />
 	<code>HEIGHT = 300</code><br />
 	<code>clock = pygame.time.Clock()</code><br />
@@ -18,18 +18,12 @@
 	<li>We will now need a game window for the game to be played in. Type<br />
 	<code>WINDOW = pygame.display.set_mode((WIDTH, HEIGHT))</code></li>
 	<li>Next, we will need a main loop for the game. This loop will contine to run as long as game needs to be played. For example, while game_is_running == True:<br /># code that will keep game running. Type:<br />
-<<<<<<< HEAD
-	<code>isRunning = True<br /></code>
+	<code>isRunning = True</code><br />
 	<code>while isRunning:</code><br />
+	&#8195;&#8195;&#8195;&#8195;<code># code for game play will go here</code><br />
 	&#8195;&#8195;&#8195;&#8195;<code>WINDOW.fill(BACKGROUND_COLOR)</code><br />
 	&#8195;&#8195;&#8195;&#8195;<code>pygame.display.update()</code><br />
-	&#8195;&#8195;&#8195;&#8195;<code>clock.tick(FPS)</code></li>
-=======
-	<code>isRunning = True<br />while isRunning:<br />
-		WINDOW.fill(BACKGROUND_COLOR)<br />
-	&#8195;&#8195;&#8195;&#8195;pygame.display.update()<br />
-	&#8195;&#8195;&#8195;&#8195;clock.tick(FPS)</code></li>
->>>>>>> 4ae16691bcf467c01f7a6a0d16bdc94c535a702d
+	&#8195;&#8195;&#8195;&#8195;<code>clock.tick(FPS)</code><br /></li>
 </ol>
 
  </body>
