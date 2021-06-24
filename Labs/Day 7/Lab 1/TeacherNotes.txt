@@ -1,1 +1,2 @@
-Explain the idea of what a const var is and what tuples are when they come up when writing the code. For example, when writting pygame.display.set_mode((WIDTH, HEIGHT)) explain what a tuple is and why it is a good idea that set_mode function takes a tuple as an argument instead of two const vars.
+1) Explain the idea of what a const var is and what tuples are when they come up when writing the code. For example, when writting pygame.display.set_mode((WIDTH, HEIGHT)) explain what a tuple is and why it is a good idea that set_mode function takes a tuple as an argument instead of two const vars.
+2) Only explain how to handle quitting inputs after you teach everything everything there is comment that explains that in the code
