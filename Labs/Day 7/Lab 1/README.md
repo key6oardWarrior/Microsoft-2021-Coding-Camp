@@ -18,11 +18,18 @@
 	<li>We will now need a game window for the game to be played in. Type<br />
 	<code>WINDOW = pygame.display.set_mode((WIDTH, HEIGHT))</code></li>
 	<li>Next, we will need a main loop for the game. This loop will contine to run as long as game needs to be played. For example, while game_is_running == True:<br /># code that will keep game running. Type:<br />
+<<<<<<< HEAD
 	<code>isRunning = True<br /></code>
 	<code>while isRunning:</code><br />
 	&#8195;&#8195;&#8195;&#8195;<code>WINDOW.fill(BACKGROUND_COLOR)</code><br />
 	&#8195;&#8195;&#8195;&#8195;<code>pygame.display.update()</code><br />
 	&#8195;&#8195;&#8195;&#8195;<code>clock.tick(FPS)</code></li>
+=======
+	<code>isRunning = True<br />while isRunning:<br />
+		WINDOW.fill(BACKGROUND_COLOR)<br />
+	&#8195;&#8195;&#8195;&#8195;pygame.display.update()<br />
+	&#8195;&#8195;&#8195;&#8195;clock.tick(FPS)</code></li>
+>>>>>>> 4ae16691bcf467c01f7a6a0d16bdc94c535a702d
 </ol>
 
  </body>
