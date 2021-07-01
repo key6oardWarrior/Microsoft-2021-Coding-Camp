@@ -10,7 +10,6 @@
 	<li>Print a string literal</li>
 	<li>Create a var that holds a string</li>
 	<li>Splice the string var that you created</li>
-	<li>Fix string code</li>
 </ol>
 
 <h2>Cut These Strings Up!</h2>
