@@ -23,7 +23,7 @@
   <li>Day 5: Strings and List</li>
   <li>Day 6: Functions</li>
   <li>Day 7: PyGame Basics</li>
-  <li>Day 8: PyGame User Inpu</li>
+  <li>Day 8: PyGame User Input</li>
   <li>Day 9: Advanced PyGame Topics</li>
   <li>Day 10: Short Game Making Competition</li>
 </ol>
