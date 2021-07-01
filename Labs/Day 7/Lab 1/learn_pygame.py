@@ -20,8 +20,6 @@ while isRunning:
 			isRunning = False
 
 	# code for game play will go here
-	window.blit(player, (playerPos[0], playerPos[1]))
-	updatePlayer()
 
 	# always the last lines of code to run to update the game screen
 	pygame.display.flip()
