@@ -25,7 +25,7 @@
   <li>Day 7: PyGame Basics</li>
   <li>Day 8: PyGame User Input</li>
   <li>Day 9: Advanced PyGame Topics</li>
-  <li>Day 10: Short Game Making Competition</li>
+  <li>Day 10-15: Build a Voting Machine</li>
 </ol>
 
  </body>
