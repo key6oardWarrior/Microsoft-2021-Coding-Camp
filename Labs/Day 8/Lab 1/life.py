@@ -1,13 +1,14 @@
 import pygame
 
-ON_COLOR = (255,255,255)
-OFF_COLOR = (40,40,40)
-BORDER_COLOR = (0,0,0)
+ON_COLOR = (255,255,255) # White
+OFF_COLOR = (40,40,40) # Dark Grey
+BORDER_COLOR = (0,0,0) # Black
 FPS = 60 # Framerate cap, in frames per second
 DELAY = 100 # Delay, in milliseconds, between ticks of the simulation
 
 board = [[False for i in range(10)] for j in range(10)] # Initialize a 10 x 10 matrix of Falses to represent the cells
 next = [[False for i in range(10)] for j in range(10)] # Initialize another matrix to track the next iteration of the simulation
+
 
 def draw_cell(x,y,alive):
 	global screen
@@ -15,67 +16,21 @@ def draw_cell(x,y,alive):
 		color = ON_COLOR
 	else:
 		color = OFF_COLOR
-	return screen.fill(color,pygame.Rect(x*40 + 2,y*40 + 2,37,37))
-	
+	screen.fill(color,pygame.Rect(x*40 + 2,y*40 + 2,37,37))
 
-def get_surround(x,y):
-	out = 0
-
-	if x > 0 and y > 0 and board[x-1][y-1]:
-		out += 1
-	if x > 0 and board[x-1][y]:
-		out += 1
-	if x > 0 and y < 9 and board[x-1][y+1]:
-		out += 1
-	if y < 9 and board[x][y+1]:
-		out += 1
-	if x < 9 and y < 9 and board[x+1][y+1]:
-		out += 1
-	if x < 9 and board[x+1][y]:
-		out += 1
-	if x < 9 and y > 0 and board[x+1][y-1]:
-		out += 1
-	if y > 0 and board[x][y-1]:
-		out += 1
-
-	return out
-
-
-def update_cell(x,y):
-	global next
-	neighbors = get_surround(x,y)
-	if board[x][y]: # if alive
-		if neighbors < 2 or neighbors > 3:
-			next[x][y] = False
-		else:
-			next[x][y] = True
-
-	else: # if dead
-		if neighbors == 3:
-			next[x][y] = True
-		else:
-			next[x][y] = False
-
-	return next[x][y]
-
-def update_sim():
-	global board
-	global next
-	rects = []
-
+def draw_board():
 	for i in range(10):
 		for j in range(10):
-			alive = update_cell(i,j)
-			rect = draw_cell(i,j,alive)
-			rects.append(rect)
-	board = [row[:] for row in next]
-	pygame.display.update(rects)
+			alive = board[i][j]
+			draw_cell(i,j,alive)
 
+# Put any additional functions you write here
 
 pygame.init()
 screen = pygame.display.set_mode((400,400))
 clock = pygame.time.Clock()
 
+# Draw the background and gridlines
 screen.fill(OFF_COLOR)
 for i in range(11):
 	for j in range(11):
@@ -86,6 +41,7 @@ pygame.display.flip()
 is_playing = True
 simulate = False
 elapsed = 0
+
 while is_playing == True:
 	clock.tick(FPS)
 	for event in pygame.event.get():
@@ -95,15 +51,26 @@ while is_playing == True:
 		elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
 			is_playing = False
 			break
-		elif event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
+		elif event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE: # Toggle the simulation by pressing the space bar
 			simulate = not simulate
 		elif event.type == pygame.MOUSEBUTTONDOWN:
-			square = (event.pos[0]//40,event.pos[1]//40)
-			board[square[0]][square[1]] = not board[square[0]][square[1]]
-			pygame.display.update(draw_cell(square[0],square[1],board[square[0]][square[1]]))
+			# TODO: use the attribute event.pos to change the "board" matrix in the right place,
+			# corresponding to where on the screen the user clicks, in order to allow them to
+			# change the status of cells by clicking on them. You can use draw_cell() to help, but remember
+			# to update the screen to show the changes!
+			
+			
 	if simulate:
-		elapsed += clock.get_time()
+		elapsed += clock.get_time() # Count the time spent processing the event queue
+		
 		if elapsed >= DELAY:
-			update_sim()
+			# TODO: update the simulation here by calculating which cells will be
+			# alive in the next step, and changing the "next" matrix to match.
+			# A description of the rules behind Conway's game of life is included, and can also be found online.
+			
+			
+			board = [row[:] for row in next] # Deep copy the elements from "next" into "board"
+			draw_board() # Draw every cell on the board to the screen buffer
+			pygame.screen.flip() # Display the buffer
 			elapsed = 0
 
