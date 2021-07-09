@@ -29,8 +29,8 @@ def updatePlayer():
 		playerPos[1] += 10
 
 pygame.init()
-WIDTH = 1000
-HEIGHT = 1000
+WIDTH = 400
+HEIGHT = 400
 BACKGROUND_COLOR = (0, 0, 0) # black
 FPS = 60 # frames per second
 clock = pygame.time.Clock()
@@ -52,6 +52,7 @@ while isRunning:
 
 	# code for game play will go here
 	updatePlayer()
+	window.fill(BACKGROUND_COLOR)
 	window.blit(player, (playerPos[0], playerPos[1]))
 
 	# always the last lines of code to run to update the game screen
