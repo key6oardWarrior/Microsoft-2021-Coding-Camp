@@ -1,34 +1,42 @@
-# Basic inputs and outputs
+# Debugging Practice
 
-The object of this lab will be to practice using variables and Python syntax.
+The object of this lab will be to practice basic debugging, which involves attention to detail and a knowledge of syntax.
 
-## 1: Introduce Yourself
+## 1: Trivia Printer
 
-Directions: Write a short program that prints your name, birthday, and a fact about yourself on three separate lines.
+Under the heading "1: Trivia Printer" in the included .py file, there is a short program that is intended to print some interesting trivia.
 
-Example execution:
-> My name is Alfonso VIII of Castille. <br>
-> My birthday is November 11th. <br>
-> I was king of Castille from 1158 to 1214 CE. <br>
+Expected execution:
+> On a standard six-sided die, the sum of any two opposing sides will always be 7! <br>
+> Snakes do not have eyelids; instead, their eyes are covered by a pair of transparent scales!
 
-## 2: Counting Sandwiches
+Try running this code in Replit. Observe how the actual output differs from the expected output above. <br>
+Then, see if you can change the code in repl.it so that it functions as intended.
 
-Directions: Write a program that takes in an integer as the number of sandwiches, then repeats back that number of sandwiches and how many slices of bread they contain. <br>
-(Assume the sandwiches are of standard construction and contain two slices of bread each.)
+## 2: Age Predictor
 
-Example execution:
-> How many sandwiches do you have? <br>
-> \> 7 <br>
-> You have 7 sandwiches? <br>
-> There are 14 slices of bread in those sandwiches.
+Under the heading "2: Age Predictor" in the included .py file, there is a short program that is intended to "predict" your age in one year.
+It should take in an integer as the user's age, add one to that number, then print that number as the user's age next year.
 
-## 3: Exponential Calculator
+Expected execution:
+> What is your current age, in years? <br>
+> \> 20 <br>
+> In one year, you will be 21 years old.
 
-Directions: Write a program that takes in two integers: a number to take the power of, and a power to which to raise the first number. It should then print out the result of taking that power.
+Try running this code in Replit. Observe how the actual output differs from the expected output above. <br>
+Then, see if you can change the code in repl.it so that it functions as intended.
 
-Example execution:
-> Please input a number: <br>
-> \> 2 <br>
-> Please input a power to raise that number to: <br>
-> \> 5 <br>
-> 32
+## 3: Reading Time
+
+Under the heading "3: Reading Time" in the included .py file, there is a short program that is intended to calculate how long a book will take to read.
+It should take in two integers as the number of pages and how many pages the user can read in one hour, then calculate how long the user will take to read the book.
+
+Expected execution:
+> How many pages does the book have? <br>
+> \> 325 <br>
+> How many pages can you read in an hour? <br>
+> \> 50 <br>
+> The book will take 6.5 hours to read.
+
+Try running this code in Replit. Observe how the actual output differs from the expected output above. <br>
+Then, see if you can change the code in repl.it so that it functions as intended.
