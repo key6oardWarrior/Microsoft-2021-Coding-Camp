@@ -6,7 +6,7 @@ def shapes():
 	# draw a line
 	# args: game window, color, start point, end point, thickness
 	COLOR = (255, 0, 0)
-	pygame.draw.line(window, COLOR, (100, 100), (500, 7), 5)
+	pygame.draw.line(window, COLOR, (200, 300), (400, 600), 5)
 
 	# draw polygon
 	# ask students what is the last argument susposed to represent
