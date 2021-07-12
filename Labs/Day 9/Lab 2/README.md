@@ -13,3 +13,6 @@
 	<li>The user must jump over each incoming shpae, so they can score points. When the user wants to go back to the gound faster all they have to do is press the down button. When the user hits an incoming shape they lose the game.</li>
 	<li>When the user loses the game the game should end.</li>
 </ol>
+
+ </body>
+</html>
