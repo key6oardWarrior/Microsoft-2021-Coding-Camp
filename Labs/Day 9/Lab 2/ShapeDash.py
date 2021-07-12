@@ -10,10 +10,10 @@ def inBounds(x, y):
 	@return <class 'tuple'> the x and y that is in bounds of the game window
 	'''
 
-	if x > HEIGHT:
+	if x >= HEIGHT:
 		x = HEIGHT - PLAYER_HEIGHT
 	
-	if y > WIDTH:
+	if y >= WIDTH:
 		y = WIDTH - PLAYER_WIDTH
 	
 	return (x, y)
@@ -62,6 +62,10 @@ while isRunning:
 				playerPos[1] -= 50
 			elif event.key == pygame.K_DOWN:
 				playerPos[1] += 50
+			elif event.key == pygame.K_LEFT:
+				playerPos[0] -= 50
+			elif event.key == pygame.K_RIGHT:
+				playerPos[0] += 50
 
 	window.blit(player, inBounds(playerPos[0], playerPos[1]))
 	pygame.display.set_caption(f"FPS: {clock.get_fps()}")
